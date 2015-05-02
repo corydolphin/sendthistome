@@ -1,0 +1,20 @@
+{
+  "name": "react-starter-template",
+  "version": "0.0.0",
+  "authors": [
+    "John Lynch <john@rigelgroupllc.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "sdk": "https://cdn.digits.com/1/sdk.js",
+    "materialize": "~0.95.3"
+  }
+}
