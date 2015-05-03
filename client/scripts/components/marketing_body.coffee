@@ -7,9 +7,9 @@ MarketingBody = React.createClass
         React.createElement "div", {className: "container"},
           React.createElement "br", null,
             React.createElement "br", null
-          React.createElement "h1", {className: "header center orange-text"}, "SendToMobile"
+          React.createElement "h1", {className: "header center orange-text"}, "SendThisToMe"
           React.createElement "div", {className: "row center"},
-            React.createElement "h5", {className: "header col s12 light"}, "Send App install links to mobile, where you can install them."
+            React.createElement "h5", {className: "header col s12 light"}, "Send App install links to your phone, where you can install them."
           React.createElement "div", {className: "row center"},
             React.createElement "a", {href: "./install?link=https://itunes.apple.com/app/id972909677", id: "download-button", className: "btn-large waves-effect waves-light orange"}, "Try it out!"
           React.createElement "div", {className: "row center"},
@@ -34,7 +34,7 @@ MarketingBody = React.createClass
               React.createElement "div", {className: "icon-block"},
                 React.createElement "h2", {className: "center light-blue-text"},
                   React.createElement "i", {className: "mdi-content-send"}
-                React.createElement "h5", {className: "center"}, "3. Have it sent to mobile"
+                React.createElement "h5", {className: "center"}, "3. Open on mobile"
                 React.createElement "p", {className: "light"}, "We send the link to mobile, where you can easily install it."
 
 module.exports = MarketingBody
