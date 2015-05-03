@@ -1,5 +1,5 @@
 Request      = require 'superagent'
-Twilio       = require('twilio')(process.env.TWILIO_API_KEY, process.env.TWILIO_API_KEY_SECRET)
+Twilio       = require('twilio')(process.env.TWILIO_API_KEY or 'FOO', process.env.TWILIO_API_KEY_SECRET or 'BAR')
 Mongoose     = require 'mongoose'
 Installation = Mongoose.model 'Installation'
 
