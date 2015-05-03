@@ -23,7 +23,7 @@ require './models/user.coffee'
 app = express()
 
 app.use compression()
-app.use(express.static(path.resolve("./dist")))
+app.use express.static(path.resolve("./dist"),  maxAge: 30)
 app.use session
   secret: process.env.SECRET_KEY or 'CHANGE_THIS'
   saveUninitialized: true
