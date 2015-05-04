@@ -16,7 +16,7 @@ Router = React.createClass
       Installer @props
     else
       console.log 'not install'
-      Marketing()
+      Marketing @props
 
   render:()->
     Html

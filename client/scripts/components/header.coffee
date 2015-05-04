@@ -5,9 +5,6 @@ Header = React.createClass
     React.createElement "nav", {className: "blue lighten-1", role: "navigation"},
       React.createElement "div", {className: "nav-wrapper container"},
         React.createElement "a", {id: "logo-container", href: "#", className: "brand-logo"}, "SendThisToMe"
-        React.createElement "ul", {className: "right"},
-          React.createElement "li", null,
-            React.createElement "a", {href: "/"}, "Learn more!"
         React.createElement "ul", {id: "nav-mobile", className: "side-nav"},
           React.createElement "li", null,
             React.createElement "a", {href: "/"}, "Navbar Link"

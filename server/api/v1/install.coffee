@@ -13,7 +13,7 @@ module.exports = (app) ->
     messageBody =
       to:req.session.user.phone_number
       from: '4233435737'
-      body: "You asked me to send a link #{req.param('link')}"
+      body: "Hey! Checkout #{req.param('link')}. -- The friendly SendThisToMe bot"
 
     if req.param('link') is undefined
       res.send 'No link!'

@@ -7,7 +7,7 @@ Marketing = React.createClass
   render: ()->
     React.createElement 'div', {},
       Header()
-      MarketingBody()
+      MarketingBody @props
       Footer()
 
 module.exports = Marketing

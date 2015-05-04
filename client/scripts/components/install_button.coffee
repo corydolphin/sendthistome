@@ -16,7 +16,9 @@ InstallButton = React.createClass
      .end (err, res) =>
        console.log "POST /api/v1/install response: err:#{JSON.stringify(err)} response:#{JSON.stringify(res)}"
        @setState completed:true
-       setTimeout window.close, 1000
+       unless @props.noCloseWhenFinished
+        setTimeout window.close, 1000
+
 
   render: () ->
     console.log "Render install called. props:#{JSON.stringify(@props)} state:#{JSON.stringify(@state)}"
